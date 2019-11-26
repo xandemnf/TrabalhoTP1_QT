@@ -19,6 +19,7 @@ SOURCES += \
     fm_cadastrarjogo.cpp \
     fm_cadastro.cpp \
     fm_principal.cpp \
+    fm_visualizarjogos.cpp \
     main.cpp \
     janelalogin.cpp
 
@@ -26,12 +27,14 @@ HEADERS += \
     fm_cadastrarjogo.h \
     fm_cadastro.h \
     fm_principal.h \
+    fm_visualizarjogos.h \
     janelalogin.h
 
 FORMS += \
     fm_cadastrarjogo.ui \
     fm_cadastro.ui \
     fm_principal.ui \
+    fm_visualizarjogos.ui \
     janelalogin.ui
 
 # Default rules for deployment.

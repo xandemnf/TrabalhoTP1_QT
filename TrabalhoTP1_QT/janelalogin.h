@@ -8,6 +8,7 @@
 #include "fm_principal.h"
 #include <QMessageBox>
 #include "fm_cadastro.h"
+#include "fm_visualizarjogos.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class JanelaLogin; }
@@ -25,6 +26,8 @@ private slots:
     void on_btn_entrar_clicked();
 
     void on_btn_cadastrar_clicked();
+
+    void on_btn_visualizarJogos_clicked();
 
 private:
     Ui::JanelaLogin *ui;

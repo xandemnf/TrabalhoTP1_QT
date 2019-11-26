@@ -1,0 +1,11 @@
+release/fm_cadastrarjogo.o
+release/fm_cadastro.o
+release/fm_principal.o
+release/fm_visualizarjogos.o
+release/main.o
+release/janelalogin.o
+release/moc_fm_cadastrarjogo.o
+release/moc_fm_cadastro.o
+release/moc_fm_principal.o
+release/moc_fm_visualizarjogos.o
+release/moc_janelalogin.o

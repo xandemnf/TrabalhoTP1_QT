@@ -68,3 +68,9 @@ void JanelaLogin::on_btn_cadastrar_clicked()
     fm_cadastro cadastro;
     cadastro.exec();
 }
+
+void JanelaLogin::on_btn_visualizarJogos_clicked()
+{
+    fm_visualizarJogos visualizarJogos;
+    visualizarJogos.exec();
+}
