@@ -20,6 +20,8 @@ private slots:
 
     void on_btn_cadastrarJogo_clicked();
 
+    void on_btn_descadastrarJogo_clicked();
+
 private:
     Ui::fm_principal *ui;
 };

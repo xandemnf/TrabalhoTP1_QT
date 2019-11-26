@@ -18,6 +18,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     fm_cadastrarjogo.cpp \
     fm_cadastro.cpp \
+    fm_descadastrarjogo.cpp \
     fm_principal.cpp \
     fm_visualizarjogos.cpp \
     main.cpp \
@@ -26,6 +27,7 @@ SOURCES += \
 HEADERS += \
     fm_cadastrarjogo.h \
     fm_cadastro.h \
+    fm_descadastrarjogo.h \
     fm_principal.h \
     fm_visualizarjogos.h \
     janelalogin.h
@@ -33,6 +35,7 @@ HEADERS += \
 FORMS += \
     fm_cadastrarjogo.ui \
     fm_cadastro.ui \
+    fm_descadastrarjogo.ui \
     fm_principal.ui \
     fm_visualizarjogos.ui \
     janelalogin.ui

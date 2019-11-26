@@ -1,11 +1,13 @@
 debug/fm_cadastrarjogo.o
 debug/fm_cadastro.o
+debug/fm_descadastrarjogo.o
 debug/fm_principal.o
 debug/fm_visualizarjogos.o
 debug/main.o
 debug/janelalogin.o
 debug/moc_fm_cadastrarjogo.o
 debug/moc_fm_cadastro.o
+debug/moc_fm_descadastrarjogo.o
 debug/moc_fm_principal.o
 debug/moc_fm_visualizarjogos.o
 debug/moc_janelalogin.o
