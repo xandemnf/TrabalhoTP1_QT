@@ -16,17 +16,20 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    fm_cadastrarjogo.cpp \
     fm_cadastro.cpp \
     fm_principal.cpp \
     main.cpp \
     janelalogin.cpp
 
 HEADERS += \
+    fm_cadastrarjogo.h \
     fm_cadastro.h \
     fm_principal.h \
     janelalogin.h
 
 FORMS += \
+    fm_cadastrarjogo.ui \
     fm_cadastro.ui \
     fm_principal.ui \
     janelalogin.ui

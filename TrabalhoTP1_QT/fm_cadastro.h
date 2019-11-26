@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include <QtSql>
+#include "fm_cadastrarjogo.h"
 
 namespace Ui {
 class fm_cadastro;

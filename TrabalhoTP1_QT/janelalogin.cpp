@@ -1,6 +1,8 @@
 #include "janelalogin.h"
 #include "ui_janelalogin.h"
 
+QString user;
+
 //Definindo Banco de Dados do tipo QSqlDatabase
 static QSqlDatabase bancoDeDados = QSqlDatabase::addDatabase("QSQLITE");
 

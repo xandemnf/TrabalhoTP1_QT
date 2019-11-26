@@ -12,3 +12,8 @@ fm_principal::~fm_principal()
 {
     delete ui;
 }
+
+void fm_principal::on_btn_cadastrarJogo_clicked(){
+    fm_cadastrarJogo cadastrarJogo;
+    cadastrarJogo.exec();
+}

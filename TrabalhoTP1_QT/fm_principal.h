@@ -2,6 +2,7 @@
 #define FM_PRINCIPAL_H
 
 #include <QDialog>
+#include "fm_cadastrarjogo.h"
 
 namespace Ui {
 class fm_principal;
@@ -14,6 +15,10 @@ class fm_principal : public QDialog
 public:
     explicit fm_principal(QWidget *parent = nullptr);
     ~fm_principal();
+
+private slots:
+
+    void on_btn_cadastrarJogo_clicked();
 
 private:
     Ui::fm_principal *ui;
